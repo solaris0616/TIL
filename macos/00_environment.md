@@ -81,6 +81,8 @@ chsh -s /usr/local/bin/zsh
 
 * https://www.sublimetext.com/
 * VSCodeと迷ったが、まずは使い慣れたほう
+* キーショートカットがLinuxのものと違うので注意
+* https://qiita.com/seafield1979/items/56d4833dae818dcf85ae
 
 ### SublimeText plugin
 
@@ -88,6 +90,14 @@ chsh -s /usr/local/bin/zsh
 * BracketHighlighter
 * All Autocomplete
 * Materialize theme
+
+### ターミナルから起動する
+
+https://reasonable-code.com/sublimetext-terminal/
+
+```
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+```
 
 ## その他アプリケーション
 
@@ -100,3 +110,7 @@ chsh -s /usr/local/bin/zsh
 
 * https://www.sublimemerge.com/
 * Gitクライアント。SublimeTextと連携できてよい。
+*　ターミナルから起動するには以下
+```
+ln -s "/Applications/Sublime Merge.app/Contents/SharedSupport/bin/smerge" /usr/local/bin/smerge
+```
