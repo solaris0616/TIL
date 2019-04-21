@@ -1,38 +1,24 @@
 # Mac環境構築
 
+## 設定
+
+### CapsLockキー置き換え
+
+CapsLockをControlに置き換えた
+
 ### ホスト名の変更
 
 https://qiita.com/HOKARI_Yutaka/items/8047e5ec763adcac2563
 
+## ターミナル周り
+
 ### iTerm2
 
-https://www.iterm2.com/
-
-カラーテーマは `iceberg` が好み
-
-https://github.com/Arc0re/Iceberg-iTerm2
-
-### Alfread
-
-https://www.alfredapp.com/
-
-呼び出しキーは `Control double tap` にした
-
-### SublimeText3
-
-https://www.sublimetext.com/
-
-VSCodeと迷ったが、まずは使い慣れたほう
-
-### Sublime Merge
-
-https://www.sublimemerge.com/
-
-Gitクライアント。SublimeTextと連携できてよい。
+* https://www.iterm2.com/
+* カラーテーマは `iceberg` が好み
+* https://github.com/Arc0re/Iceberg-iTerm2
 
 ### Homebrew
-
-Terminalで実行。Xcodeも同時にインストールされる。
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -48,11 +34,8 @@ brew install cask
 
 ```
 brew install git
-```
 
-SSH鍵を作成してGitHubに登録しておく
-
-```
+# SSH鍵を作成してGitHubに登録しておく
 ssh-keygen -t rsa -C "メールアドレス"
 ```
 
@@ -63,9 +46,12 @@ brew install zsh
 brew install zplug
 ```
 
-ログインシェル（ターミナルを開いたときに使うシェル）を `zsh` に変更するには `/etc/shells` を編集する
+### ログインシェル変更
 
 ```
+sudo vi /etc/shells
+
+---
 # List of acceptable shells for chpass(1).
 # Ftpd will not allow users to connect who are not using
 # one of these shells.
@@ -87,4 +73,30 @@ chsh -s /usr/local/bin/zsh
 
 ### .zshrc
 
-リファレンス探し中
+* リファレンス探し中
+
+## エディタ
+
+### SublimeText3
+
+* https://www.sublimetext.com/
+* VSCodeと迷ったが、まずは使い慣れたほう
+
+### SublimeText plugin
+
+* Package control
+* BracketHighlighter
+* All Autocomplete
+* Materialize theme
+
+## その他アプリケーション
+
+### Alfread
+
+* https://www.alfredapp.com/
+* 呼び出しキーは `Control double tap` にした
+
+### Sublime Merge
+
+* https://www.sublimemerge.com/
+* Gitクライアント。SublimeTextと連携できてよい。
