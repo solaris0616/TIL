@@ -110,7 +110,8 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loca
 
 * https://www.sublimemerge.com/
 * Gitクライアント。SublimeTextと連携できてよい。
-*　ターミナルから起動するには以下
+* ターミナルから起動するには以下
+
 ```
 ln -s "/Applications/Sublime Merge.app/Contents/SharedSupport/bin/smerge" /usr/local/bin/smerge
 ```
