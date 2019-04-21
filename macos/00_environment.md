@@ -4,13 +4,31 @@
 
 https://qiita.com/HOKARI_Yutaka/items/8047e5ec763adcac2563
 
-### Google Chrome
+### iTerm2
 
-ホームページからダウンロードする
+https://www.iterm2.com/
 
-### Google日本語入力
+カラーテーマは `iceberg` が好み
 
-ホームページからダウンロードする
+https://github.com/Arc0re/Iceberg-iTerm2
+
+### Alfread
+
+https://www.alfredapp.com/
+
+呼び出しキーは `Control double tap` にした
+
+### SublimeText3
+
+https://www.sublimetext.com/
+
+VSCodeと迷ったが、まずは使い慣れたほう
+
+### Sublime Merge
+
+https://www.sublimemerge.com/
+
+Gitクライアント。SublimeTextと連携できてよい。
 
 ### Homebrew
 
@@ -19,14 +37,6 @@ Terminalで実行。Xcodeも同時にインストールされる。
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-
-### iTerm2
-
-ホームページからダウンロードする
-https://www.iterm2.com/
-
-カラーテーマは `iceberg` が好み
-https://github.com/Arc0re/Iceberg-iTerm2
 
 ### cask
 
@@ -77,3 +87,4 @@ chsh -s /usr/local/bin/zsh
 
 ### .zshrc
 
+リファレンス探し中
