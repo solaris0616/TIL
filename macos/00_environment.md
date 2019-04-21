@@ -73,7 +73,7 @@ chsh -s /usr/local/bin/zsh
 
 ### .zshrc
 
-* リファレンス探し中
+* https://github.com/solaris0616/dotfiles
 
 ## エディタ
 
