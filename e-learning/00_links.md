@@ -37,12 +37,10 @@
 ### Node School
 
 * https://nodeschool.io/ja/
-* nodejs 関係
 
 ### Laravel学習帳
 
 * https://laraweb.net/
-* Laravel 関係
 
 ### Ruby on Rails チュートリアル
 
@@ -60,7 +58,7 @@
 
 * http://flask.pocoo.org/docs/1.0/tutorial/
 * 本家チュートリアル
-* これも面白そう https://note.mu/daikawai/n/n233ef9662323
+* https://note.mu/daikawai/n/n233ef9662323
 
 ### Go
 
