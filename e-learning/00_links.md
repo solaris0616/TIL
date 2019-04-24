@@ -62,9 +62,20 @@
 * 本家チュートリアル
 * これも面白そう https://note.mu/daikawai/n/n233ef9662323
 
+### Go
+
+* https://golang.org/
+* https://go-tour-jp.appspot.com/welcome/1
+
+### Revel
+
+* https://revel.github.io/tutorial/index.html
+
 ## 参考
 
 * https://qiita.com/fujihiko/items/685741bc973e68624d0b
 * https://qiita.com/1-AizawaSatoshi/items/14dfaa2e974ce3c2c8ae
 * https://qiita.com/takechanman1228/items/d711e175b32f833c5e9c
 * https://note.mu/tech0x0/n/nc367271bc9ba
+* https://mayonez.jp/topic/1362
+* https://qiita.com/tenntenn/items/0e33a4959250d1a55045
