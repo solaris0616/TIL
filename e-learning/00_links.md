@@ -32,26 +32,39 @@
 * https://techacademy.jp/
 * パーソナルメンターがつく
 
-## 特化
+## 特定分野に特化
 
 ### Node School
 
 * https://nodeschool.io/ja/
 * nodejs 関係
 
-## Laravel学習帳
+### Laravel学習帳
 
 * https://laraweb.net/
 * Laravel 関係
 
-## Ruby on Rails チュートリアル
+### Ruby on Rails チュートリアル
 
 * https://railstutorial.jp/
-* 歩き方 https://www.slideshare.net/yasulab/railstutorialjp-4e
-* 感想記事 https://note.mu/tech0x0/n/nc367271bc9ba
+* https://www.slideshare.net/yasulab/railstutorialjp-4e
 * Progateやってからが良いらしい
+
+### Django Girls Tutorial
+
+* https://djangogirlsjapan.gitbook.io/workshop_tutorialjp/
+* これの後に本家チュートリアルをやると良いらしい
+* https://docs.djangoproject.com/ja/2.2/intro/
+
+### Flask
+
+* http://flask.pocoo.org/docs/1.0/tutorial/
+* 本家チュートリアル
+* これも面白そう https://note.mu/daikawai/n/n233ef9662323
 
 ## 参考
 
 * https://qiita.com/fujihiko/items/685741bc973e68624d0b
 * https://qiita.com/1-AizawaSatoshi/items/14dfaa2e974ce3c2c8ae
+* https://qiita.com/takechanman1228/items/d711e175b32f833c5e9c
+* https://note.mu/tech0x0/n/nc367271bc9ba
