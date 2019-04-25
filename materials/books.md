@@ -2,6 +2,7 @@
 
 読んでみたいものをピックアップする。読んだら読書メモのリンクを貼る。
 
+
 ## 技術書
 
 ### リーダブルコード
@@ -72,7 +73,6 @@
 * 図書館にあった
 
 
-
 ## その他
 
 ### SOFT SKILLS ソフトウェア開発者の人生マニュアル
@@ -84,9 +84,9 @@
 * https://www.amazon.co.jp/dp/427421933X
 * 似た名前の別の本があるので注意（サブタイが違う）
 
+
 ## 参考
 
 * https://www.techbookrank.com/
 * https://qiita.com/kouuuki/items/916f9fea4d4ebaea672e
 * https://qiita.com/axross/items/1fc342c04aa88d48c713
-
