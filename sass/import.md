@@ -14,7 +14,7 @@ $main-color: #556677;
 
 ```scss
 /* アンダーバーと拡張子は省略可能 */
-@import "variables"
+@import "variables";
 
 h1 {
   color: $main-color;
