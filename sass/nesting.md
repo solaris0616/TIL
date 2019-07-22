@@ -16,7 +16,7 @@
 }
 
 .footer a:hover {
-  color; #000000;
+  color: #000000;
 }
 
 .footer a.second {
