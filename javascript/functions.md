@@ -23,3 +23,15 @@ const greet = (name) => {
 
 greet("Alice");
 ```
+
+オブジェクトの中に関数定義を含めることができる
+
+```js
+const man = {
+  greet: () => {
+    console.log("Hello World");
+  }
+};
+
+man.greet();
+```
