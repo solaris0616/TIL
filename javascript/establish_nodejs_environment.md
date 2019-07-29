@@ -49,7 +49,7 @@ v12.7.0
 
 nodeと同時にnpmも導入される。 `npm --version`  で確認できる
 
-```
+```bash
 # npm --version
 6.10.0
 ```
