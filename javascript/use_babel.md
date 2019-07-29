@@ -123,3 +123,7 @@ node ./dist/second.js
 
 Successfully compiled 2 files with Babel.
 ```
+
+## GitHub repository
+
+https://github.com/solaris0616/babel-test
