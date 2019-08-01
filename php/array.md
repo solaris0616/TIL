@@ -15,6 +15,11 @@ echo $name[0];
 $name[2] = "Jimmy";
 echo $name[2];
 // Jimmy
+
+foraech($names as &name) {
+  echo $name;
+  // BobAliceJimmy
+}
 ```
 
 ## 値の追加
@@ -41,4 +46,9 @@ $user = array(
 ```php
 echo $user['name'];
 // Tommy
+
+foreach($user as $key => $value) {
+  echo $key.':'.$value.' ';
+  // name:Tommy age:25 gender:male 
+}
 ```
