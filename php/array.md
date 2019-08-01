@@ -16,7 +16,7 @@ $name[2] = "Jimmy";
 echo $name[2];
 // Jimmy
 
-foraech($names as &name) {
+foraech($names as $name) {
   echo $name;
   // BobAliceJimmy
 }
