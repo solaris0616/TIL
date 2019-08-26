@@ -4,9 +4,9 @@
 
 ```php
 class Car {
-  public $name;
-  public $manufacturer;
-  public $color;
+  protected $name;
+  protected $manufacturer;
+  protected $color;
 
   public function __construct($name, $manufacturer, $color) {
     $this->name = $name;
@@ -30,8 +30,7 @@ class BatteryCar extends Car {
 あるインスタンスが特定のクラスのインスタンスかどうかを判断するためには `instanceof` を使う。
 
 ```php
-$leaf = new BatteryCar('Leaf', 'Nissan', '60.0kW');
-
+$leaf = new BatteryCar('Leaf', 'Nissan', 'Red', '60.0kW');
 if($leaf instanceof BatteryCar) {
   echo $leaf->batteryCapacity;
 }
