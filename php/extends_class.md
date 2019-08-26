@@ -10,16 +10,18 @@ class Car {
 
   public function __construct($name, $manufacturer, $color) {
     $this->name = $name;
-    ...
+    $this->manufacturer = $manufacturer;
+    $this->color = $color;
   }
 }
 
 class BatteryCar extends Car {
   public $batteryCapacity;
 
+  // メソッドのオーバーライド
   public function __construct($name, $manufacturer, $color, $batteryCapacity) {
-    // javaで言う super() みたいなやつ
-    parent::__construct($name, manufacturer, $color);
+    // javaの super() みたいな
+    parent::__construct($name, $manufacturer, $color);
     $this->batteryCapacity = $batteryCapacity;
   }
 }
