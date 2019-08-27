@@ -15,8 +15,8 @@ LAMP環境のドキュメントルートに置いて、ブラウザからアク�
 
 ### ログイン
 
-ID: root
-PW: docker-compose.yml で定義したもの
+* ID: root
+* PW: docker-compose.yml で定義したもの
 
 ### その他
 
