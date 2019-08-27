@@ -24,7 +24,11 @@ PW: docker-compose.yml で定義したもの
 
 https://www.dbonline.jp/phpmyadmin/
 
-## Trouble shooting
+## tips
+
+### auto_increment なカラムを追加したい
+
+**A_I** と書いてあるところのチェックを入れる
 
 ### "Connection refused" などと言われる
 
