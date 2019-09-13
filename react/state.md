@@ -3,7 +3,7 @@
 ステートはコンストラクタの中でオブジェクトとして定義する。
 
 ```js
-clss App extends React.Component {
+class App extends React.Component {
     // ステートの定義
     constructor(props) {
         super(props);
