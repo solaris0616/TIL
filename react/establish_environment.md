@@ -117,3 +117,4 @@ Happy hacking!
 
 `yarn start` あるいは　`npm start` すると、Chromeが自動で起動して http://localhost:3000/ にアクセスする
 
+<img width="977" src="https://user-images.githubusercontent.com/38127634/64846700-35327780-d648-11e9-9c5b-d8f568979774.png">
