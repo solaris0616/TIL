@@ -7,7 +7,8 @@ JSXは変数に格納することができる。
 import React from react;
 
 class ConditionTest extends React.Component {
-  constructor() {
+  constructor(props) {
+    super(props);
     this.state = {isShow: true};
   }
   
