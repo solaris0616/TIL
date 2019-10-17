@@ -35,3 +35,10 @@ rbenv versions
 ```
 rbenv global 2.6.5
 ```
+
+特定のディレクトリ配下でのみ特定のRubyバージョンを使用するには、 `local` を指定する
+
+```
+cd workspace
+rbenv local 2.6.5
+```
