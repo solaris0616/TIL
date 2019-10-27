@@ -20,5 +20,3 @@ MicroSDをPCに挿入し、Rufusを起動。Raspbeanのイメージファイル�
 sudo apt update
 sudo apt upgrade
 ```
-
-
