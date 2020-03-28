@@ -31,5 +31,44 @@ nodebrew use stable
 ## TypeScriptのインストール
 
 ```bash
-npm -g install typescript
+yarn init -y
+yarn add -D typescript
 ```
+
+package.jsonに `start` を定義
+
+```json
+{
+  ...
+  "scripts" : {
+    "start": "tsc -p . && node ."
+  }
+}
+```
+
+## Hello world
+
+index.ts
+
+```typescript
+console.log("Hello world!");
+```
+
+command line
+
+```bash
+yarn start
+```
+
+output
+
+```bash
+ynagafuchi@bonjiri ts-ng-tutorial % yarn start
+yarn run v1.22.4
+$ tsc -p . && node .
+Hello world!
+✨  Done in 1.94s.
+```
+
+## 参考
+https://qiita.com/koinori/items/ed13ab8bbc6edcc5deb9
