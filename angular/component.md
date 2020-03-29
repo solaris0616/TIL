@@ -30,6 +30,9 @@ import { Component, OnInit } from '@angular/core';
 
 // コンポーネントの機能を提供するクラス
 export class ProductAlertComponent implements OnInit {
+  // プロパティがここに定義される
+  example;
+  notify;
 
   // コンストラクタ
   constructor() { }
