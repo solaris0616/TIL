@@ -29,8 +29,11 @@ import { Component, OnInit } from '@angular/core';
 // コンポーネントの機能を提供するクラス
 export class ProductAlertComponent implements OnInit {
 
+  // コンストラクタ
   constructor() { }
 
+  // コンポーネントのライフサイクルのフックメソッド
+  // コンポーネントの作成直後に呼び出される
   ngOnInit() {
   }
 
@@ -43,4 +46,57 @@ export class ProductAlertComponent implements OnInit {
 
 ```html
 <app-product-alert>Hoge</app-product-alert>
+```
+
+## コンポーネントのプロパティ
+
+HTML要素と同じようにコンポーネントもプロパティを受け取れる
+
+```typescript
+import { Input } from '@angular/core';
+...
+export class PropertyExampleClass {
+  @Input() example;
+}
+```
+
+```html
+<app-property-example
+  [example]="Property example">
+</app-property-example>
+```
+
+## イベント発行
+
+> 子のコンポーネントがイベントを発行したとき、アクションするのは親のコンポーネントであることに注意
+
+子コンポーネント
+
+```typescript
+// Emit = 放出する
+import { Output, EventEmitter } from '@angular/core';
+...
+export class EventExampleClass {
+  @Output() notify = new EventEmitter();
+}
+```
+
+```html
+<button (click)="notify.emit()">Notify Me</button>
+```
+
+親コンポーネント
+
+```typescript
+export class EventExampleParentClass {
+  onNotify() {
+    window.alert('Ahoy!');
+  }
+}
+```
+
+```html
+<app-event-example
+  (notify)="onNotify()">
+</app-event-example>
 ```
