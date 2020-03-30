@@ -2,6 +2,16 @@
 
 `FormBuilder`を使用する
 
+## app.module.ts
+
+```ts
+import { ReactiveFormsModule } from '@angular/forms';
+...
+imports: [
+  ReactiveFormsModule
+],
+```
+
 ## component.ts
 
 ```ts
