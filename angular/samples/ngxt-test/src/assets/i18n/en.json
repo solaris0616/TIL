@@ -1,0 +1,8 @@
+{
+  "header": "Hello world!",
+  "userIdWithUsername": "Your ID: {{value}}",
+  "toggleLang": "Toggle language",
+  "clicked": "Clicked!",
+  "child": "child works",
+  "grandchild": "grandchild works"
+}

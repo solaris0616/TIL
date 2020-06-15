@@ -1,0 +1,5 @@
+<h1 translate>header</h1>
+<p>あなたのID: {{username}}</p>
+<p translate [translateParams]="{value: username}">userIdWithUsername</p>
+<button (click)="onClick()" translate>toggleLang</button>
+<app-child></app-child>

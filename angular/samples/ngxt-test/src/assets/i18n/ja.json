@@ -1,0 +1,8 @@
+{
+  "header": "こんにちは、世界！",
+  "userIdWithUsername": "あなたのID: {{value}}",
+  "toggleLang": "言語を切り替える",
+  "clicked": "クリックされました！",
+  "child": "子コンポーネントです",
+  "grandchild": "孫コンポーネントです"
+}
