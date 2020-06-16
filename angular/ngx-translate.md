@@ -89,6 +89,12 @@ translate.use('ja');
 translate.getBrowserLang();
 ```
 
+## 今のngx-translateの言語設定
+
+```typescript
+translate.currentLang;
+```
+
 ## デフォルト言語を設定する
 
 仮に辞書データが存在しなかった場合のフォールバック先になる
